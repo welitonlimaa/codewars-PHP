@@ -17,10 +17,10 @@ function highAndLow($numbers){
 	sort($arrayNumbers);
 
 	$length = count($arrayNumbers);
-	
+
 	$high = $arrayNumbers[$length - 1];
 	$low = $arrayNumbers[0];
-	
+
 	return "{$high} {$low}";
 }
 ?>
