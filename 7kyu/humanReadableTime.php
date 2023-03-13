@@ -10,8 +10,8 @@
 
 function human_readable($seconds) {
 	$hour = floor($seconds / 3600);
-		$minutes = ($seconds / 60) % 60;
-		$s = $seconds % 60;
+	$minutes = ($seconds / 60) % 60;
+	$s = $seconds % 60;
 
 	return sprintf("%02d:%02d:%02d", $hour, $minutes, $s);
 }
